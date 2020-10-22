@@ -8,5 +8,3 @@ sol_per_pop = 8
 
 pop_size = (sol_per_pop, num_weights)
 new_population = numpy.random.uniform(low=-4.0, high=4.0, size=pop_size)
-
-print(new_population)
